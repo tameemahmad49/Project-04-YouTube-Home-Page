@@ -1,0 +1,810 @@
+img {
+    width: 100%;
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+ol,
+ul,
+li,
+figcaption,
+textarea,
+input {
+    font-family: arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+/* header css */
+
+.headerSection {
+    background: white;
+    border-bottom: 1.5px solid #00000012;
+    padding-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+    z-index: 9999;
+}
+
+.leftMainHead {}
+
+.headLogoDiv {
+    width: 230px;
+    padding-top: 10px;
+}
+
+.headLogoDiv img {
+    width: 105px;
+    padding-left: 30px;
+    cursor: pointer;
+}
+
+.headLogoDiv a {
+    padding: 10px;
+    font-size: 14px;
+}
+
+.headLogoDiv a span {
+    color: #d02021;
+}
+
+.headLogoDiv a span i {
+    font-weight: 600;
+}
+
+.searchbarDiv {
+    margin-left: -180px;
+}
+
+.sHead {
+    width: 654px;
+    height: 24px;
+    padding-top: 10px;
+}
+
+.sHead2 {
+    border-radius: 0px;
+}
+
+.shead3 {}
+
+.mySheadBtn {
+    padding-right: 35px;
+    padding-left: 35px;
+    border: 1px solid #0000001a;
+    color: #00000061 !important;
+    border-radius: 0;
+}
+
+.mySheadBtn i {}
+
+.btnDivHead {
+    padding-top: 14px;
+    text-align: right;
+    margin-right: 26px;
+}
+
+.btnDivHead a {
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 11px;
+    border: 1px solid #0000001a;
+}
+
+/* body css */
+
+/* left side css */
+
+.leftSideBody {
+    background: white;
+    padding-left: 20px;
+    width: 14%;
+    padding-top: 15px;
+    padding-bottom: 200px;
+    position: fixed;
+    top: 58px;
+}
+
+.homeLeft {
+    background: #df2724;
+    height: 30px;
+    width: 90%;
+}
+
+.homeLeft a {
+    color: white;
+    padding: 16px;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+.homeLeft hr {
+    width: 182px;
+    margin: auto;
+    margin-top: 5px;
+    background: #0000006e;
+}
+
+.boyleft {
+    margin-top: 16px;
+}
+
+.boyleft h4 {
+    color: #e12a26;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+    text-transform: uppercase;
+}
+
+.listBoyleft {}
+
+.listBoyleft hr {
+    width: 182px;
+    margin: auto;
+    margin-top: auto;
+    margin-top: -4px;
+    background: #0000006e;
+    margin-left: 0px;
+}
+
+.listBoyleft ul {
+    padding-left: 1px;
+    margin-top: 15px;
+}
+
+.listBoyleft ul li {
+    list-style: none;
+    padding: 10px;
+    padding-bottom: 4px;
+    width: 90%;
+}
+
+.listBoyleft ul li a {
+    color: black;
+    font-size: 13px;
+}
+
+.listBoyleft ul li a span {}
+
+.listBoyleft ul li a span img {
+    width: 20px;
+    margin-right: 14px;
+}
+
+.browseLeft {}
+
+.browseLeft hr {
+    width: 182px;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 4px;
+    background: #0000006e;
+    margin-left: 0px;
+}
+
+.browseLeft p {
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 18px;
+}
+
+.btnleftbrowse {
+}
+
+.homeLeft a span {
+    margin-right: 12px;
+}
+
+.listBoyleft ul li:hover {
+    background: #000000bf;
+    /*! margin: 6px; */
+    /*! color: white; */
+    padding-bottom: 4px;
+}
+
+.listBoyleft ul li:hover a {
+    color: white;
+}
+
+.browseLeft a {
+    color: black;
+    font-size: 14px;
+    line-height: 46px;
+    padding-left: 5px;
+    width: 90%;
+    display: block;
+    margin-top: 4px;
+}
+
+.browseLeft a span {
+    margin-left: 10px;
+    background: #00000075;
+    color: white;
+    padding: 5px;
+    border-radius: 46px;
+    font-size: 10px;
+    margin-right: 12px;
+}
+
+.browseLeft a:hover {
+    background: #000000bf;
+    color: white;
+}
+
+.btnleftbrowse {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* main body css */
+
+.mainBody {
+    background: white;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 75px;
+    margin-left: -17px;
+    width: 99%;
+    margin-bottom: 55px;
+}
+
+.upperMb {}
+
+.upperMb hr {
+    width: 105%;
+    margin-left: -21px;
+    height: .9px;
+    background: #00000047;
+    margin-top: 30px;
+}
+
+.leftUppermb {
+    display: flex;
+}
+
+.imgleftUMb {
+    width: 550px;
+    position: relative;
+}
+
+.imgleftUMb img {}
+
+.textLmb {
+    margin-left: 12px;
+    margin-top: 7px;
+}
+
+.videoText {}
+
+.videoText h4 {
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.videoText h4 a {}
+
+.videoText p {
+    color: #00000096;
+    font-size: 11px;
+    margin: 0;
+    line-height: 14px;
+}
+
+.videoText p a {
+    color: #00000096;
+    text-decoration: underline;
+}
+
+.videoText p span {
+    font-size: 3px;
+    margin: 0 5px;
+}
+
+.videoText p span i {}
+
+.rightUpper {}
+
+.allru {
+    display: flex;
+    margin-bottom: -2px;
+}
+
+.ruimg {
+    width: 130px;
+    position: relative;
+    height: 100%;
+}
+
+.ruimg img {}
+
+.textRu {
+    margin: 7px;
+    width: 206px;
+    margin-left: 11px;
+}
+
+.videoText p a:hover {
+    color: #0f6ac1;
+}
+
+.durationDiv {
+    background: #000000d4;
+    color: white;
+    width: 33px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    height: 15px;
+    text-align: center;
+}
+
+.durationDiv p {}
+
+.lowermb {}
+
+.lowermb hr {
+    width: 105%;
+    margin: auto;
+    margin-left: -21px;
+    height: .9px;
+    background: #00000047;
+    margin-bottom: 20px;
+}
+
+.lowerhead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftLowerHead {
+    display: flex;
+}
+
+.leftLowerHead span {
+    width: 20px;
+    display: block;
+}
+
+.leftLowerHead span img {}
+
+.leftLowerHead h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.leftLowerHead p {
+    font-size: 11px;
+    margin: 5px;
+    color: #0000006b;
+    font-weight: bold;
+}
+
+.rightLowerHead {
+    display: flex;
+}
+
+.rightLowerHead span {
+    margin-right: 2px;
+}
+
+.rightLowerHead span i {
+    font-size: 18px;
+    display: block;
+}
+
+.btnrLH {
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    border-radius: 0;
+    border: 1px solid #dc3545;
+    line-height: 19px;
+}
+
+.btnrLH2 {}
+
+.allLower {
+    display: flex;
+    margin-top: 14px;
+    justify-content: space-around;
+}
+
+.lowerVid {
+}
+
+.imgLowerVid {
+    width: 240px;
+    height: 45%;
+    position: relative;
+}
+
+.imgLowerVid img {
+    height: 100%;
+}
+
+.textLowerVid {
+    width: 94%;
+    margin: 11px;
+}
+
+.leftLowerHead h2 a {
+    color: black;
+}
+
+.btn.btn-sm.btn-light.btnrLH2 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0000006e;
+    border: 1px solid #00000036;
+    border-radius: 0;
+    line-height: 19px;
+}
+
+.loadMoreBtn {}
+
+.loadMoreBtn a {
+    border: 1px solid #00000029;
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+
+.btnDivHead a:last-child {
+    border: 1px solid #0d6efd;
+}
+
+/* footer css */
+
+.footer {
+    background: white;
+    margin-left: -45px;
+    padding: 30px;
+    border-top: 1px solid #0000001c;
+    padding-bottom: 50px;
+}
+
+.upperFooter {}
+
+.upperFooter img {
+    width: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.upperFooter a {
+    border: 1px solid #00000029;
+    border-top-color: rgba(0, 0, 0, 0.16);
+    border-right-color: rgba(0, 0, 0, 0.16);
+    border-bottom-color: rgba(0, 0, 0, 0.16);
+    border-left-color: rgba(0, 0, 0, 0.16);
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+    margin: 4px;
+}
+
+.upperFooter hr {
+    height: .6px;
+    background: black;
+}
+
+.lowerFooter {
+    margin-left: -9px;
+    margin-top: -10px;
+}
+
+.firstLineLowerFooter {}
+
+.firstLineLowerFooter a {
+    color: #000000e3;
+    padding: 8px;
+}
+
+.secondLineLowerFooter {
+    margin-top: 4px;
+}
+
+.secondLineLowerFooter a {
+    color: #000000e8;
+    font-size: 11px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+
+
+
+
+.firstLineLowerFooter a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+  .secondLineLowerFooter a:hover {
+    color: #0d6efd;
+    text-decoration: underline;
+  }
+
+
+
+
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
+
+. {}
